@@ -17,12 +17,14 @@ Este projeto é um agendador de postagens para o [Bluesky](https://bsky.app), de
 
 ## Configuração
 
-### 1. Clone o Repositório
+### 1. Usuário e Senha da API
+
+- Deixei duas váriaveis que precisam ser modificadas dentro da classe BlueskyApiService. A ideia era buscar de dentro do application.properties, mas não tive tempo.
+
+### 2. Clone o Repositório
 
 ```bash
 git clone https://github.com/seu-usuario/bluesky-post-scheduler.git
 cd bluesky-post-scheduler
 
-### 2. Usuário e Senha da API
 
-- Deixei duas váriaveis que precisam ser modificadas dentro da classe BlueskyApiService. A ideia era buscar de dentro do application.properties, mas não tive tempo.
