@@ -23,8 +23,14 @@ Este projeto é um agendador de postagens para o [Bluesky](https://bsky.app), de
 
 ### 2. Clone o Repositório
 
-```bash
 git clone https://github.com/seu-usuario/bluesky-post-scheduler.git
 cd bluesky-post-scheduler
 
+## Como usar
+
+POST /api/posts/schedule
+Content-Type: application/json {
+    "content": "Esta é uma postagem agendada para o Bluesky.",
+    "scheduledTime": "2024-09-02T14:30:00"
+}
 
